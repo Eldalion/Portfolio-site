@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Universal box-sizing with inheritance */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background: #252627;
+}
+
+.letter_f_image {
+    position: absolute;
+    width: 450px;
+    transform: rotate(-20deg);
+}
+
+/* ---------------------------- MENU -------------------------------- */
+.menu {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: #181818;
+    width: 55px;
+    height: 100vh;
+}
+
+.logo {
+    height: 10vh;
+    width: 55px;
+}
+
+.logo span {
+    display: inline-block;
+    padding:10% 5% 0 10%;
+    font-size: 400%;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #08fdd8;
+    text-shadow: -5px -5px 0px rgb(77, 162, 252);
+    transform: rotate(-20deg);
+}
+
+.navigation {
+    height: 25vh;
+    margin-top: 25vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation i {
+    display: block;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+    color: #8d8d8d;
+    transition: all 0.4s;
+}
+
+.navigation a,.navigation a:visited {
+    text-decoration: none;
+}
+
+.navigation div {
+    display: none;
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #08fdd8;
+}
+
+.menu i:hover,.menu span:hover {
+    color: #08fdd8;
+}
+
+.social_icons {
+    height: 12vh;
+    margin-top: 26vh;
+    text-align: center;
+}
+
+.social_icons a {
+    text-decoration: none;
+}
+
+.social_icons i {
+    display: block;
+    margin-top: 20%;
+    font-size: 1.5em;
+    color: #8d8d8d;
+    transition: all 0.4s;
+}
+
+/* ----------------------- INDRODUCTION ---------------------------- */
+
+.introduction {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 10%;
+}
+
+.introduction i {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    font-size: 4.5em;
+    color: #fff;
+    transform: rotate(35deg);
+    transition: all 0.5s;
+}
+
+.introduction i:hover {
+    color: #08fdd8;
+    transform: rotate(0deg);
+}
+
+.introduction h1 {
+    color: #fff;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 400%;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 100%;
+}
+
+.introduction h1 span {
+    display: inline-block;
+}
+
+.letter_f {
+    color: #08fdd8;
+    /*text-shadow: -5px -5px 0px rgba(252, 16, 86, 1);*/
+    text-shadow: -5px -5px 0px rgb(77, 162, 252);
+    transform: rotate(-20deg);
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+
+.introduction h1 span:hover {
+    color: #08FDD8;
+}
+
+.introduction h2 {
+    color: #8d8d8d;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 9px;
+    font-size: 80%;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.introduction a {
+    display: inline-block;
+    color:#08fdd8;
+    font-size: 80%;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #08fdd8;
+    margin-top: 40px;
+}
+
+.introduction a:hover {
+    color: #252627;
+    background-color: #08fdd8;
+    font-weight: 600;
+}
+
+.tag_body {
+    top:12%;
+    left:6%;
+    /*left:115px;*/
+}
+
+.tag_h1 {
+    top:5%;
+    left: 0;
+    /*left:172.5px;*/
+}
+
+.tag_h1_close {
+    top:62%;
+    left:105%;
+}
+
+.tag_body_close {
+    top: 85%;
+    left:6%;
+    /*left:115px;*/
+}
+
+.tag_html_close {
+    top: 88%;
+    left:4%;  
+    /*left:77px;*/
+}
+
+.tag_body, .tag_h1, .tag_body_close, .tag_html_close, .tag_h1_close {
+    position: absolute;
+    font-family: 'Shadows Into Light', cursive;
+    color: #8d8d8d;
+    letter-spacing: 3px;
+}
+
+.tag_body:hover, .tag_h1:hover, .tag_body_close:hover, .tag_html_close:hover, .tag_h1_close:hover {
+    color: #08fdd8;
+}
+
+/* ------------------------------ FOOTER ------------------------------ */
+
+.footer {
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+}
+
+.green {
+    color: #08fdd8;
+}
+
+.blog {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+
+
+
+.soon {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
