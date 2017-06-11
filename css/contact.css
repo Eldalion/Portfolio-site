@@ -128,7 +128,6 @@ html {
     display: inline-block;
 }
 
-
 .introduction form input {
     margin: 0;
     padding: 0 20px;
@@ -139,6 +138,11 @@ html {
     font-size: 16px;
     border: 0;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.introduction form input:focus {
+    border: 1px solid #08fdd8;
 }
 
 .introduction .name,.introduction .email {
@@ -163,7 +167,32 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.introduction .button {
+    float: right;
+    margin: 3% 1% 1% 1%;
+    padding:0px 30px;
+    height: 30px;
+    color:#08fdd8;
+    background-color: transparent;
+    font-size: 80%;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #08fdd8;
+}
 
+.introduction .button:hover {
+    color: #252627;
+    background-color: #08fdd8;
+}
+
+#map {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 48%;
+    height: 85%;
+    width: 49%;
+}
 
 .letter_f {
     color: #08fdd8;
@@ -172,7 +201,6 @@ html {
     margin-left: 10px;
     margin-right: -10px;
 }
-
 
 .tag_body {
     top:12%;
@@ -235,6 +263,7 @@ html {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 2;
     width: 200px;
 }
 

@@ -115,23 +115,8 @@ html {
     left: 10%;
 }
 
-.introduction i {
-    position: absolute;
-    right: 0;
-    display: inline-block;
-    font-size: 4.5em;
-    color: #fff;
-    transform: rotate(35deg);
-    transition: all 0.5s;
-}
-
-.introduction i:hover {
-    color: #08fdd8;
-    transform: rotate(0deg);
-}
-
 .introduction h1 {
-    color: #fff;
+    color: #08FDD8;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 400%;
     font-weight: 600;
@@ -152,47 +137,6 @@ html {
     margin-right: -10px;
 }
 
-
-.introduction h1 span:hover {
-    color: #08FDD8;
-}
-
-.introduction h2 {
-    color: #8d8d8d;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 9px;
-    font-size: 80%;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-.introduction a {
-    display: inline-block;
-    color:#08fdd8;
-    font-size: 80%;
-    letter-spacing: 3px;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    padding: 6px 10px;
-    border: 1px solid #08fdd8;
-    margin-top: 40px;
-}
-
-.introduction a:hover {
-    color: #252627;
-    background-color: #08fdd8;
-    font-weight: 600;
-}
-
-.introduction p {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 9px;
-    font-size: 80%;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
 .tag_body {
     top:12%;
     left:6%;
@@ -206,8 +150,8 @@ html {
 }
 
 .tag_h1_close {
-    top:62%;
-    left:105%;
+    top:105%;
+    left:0%;
 }
 
 .tag_body_close {
