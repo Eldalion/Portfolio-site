@@ -65,6 +65,86 @@
         <span class="tag_h1">&lth1&gt</span>
         <span class="tag_h1_close">&lt/h1&gt</span>
     </div>
+<!-- ---------------------------------------------------------- -->
+    <script src="js/tagcanvas.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      window.onload = function() {
+        try {
+          TagCanvas.Start('myCanvas','tags',{
+            textColour: '#06C5A9',
+            outlineMethod:"none",
+            textHeight:22,
+            textFont:'Archivo Narrow',
+            reverse: true,
+            depth: 0.8,
+            maxSpeed: 0.05,
+              weight:true,
+            weightMode:"size",
+              depth: 0.4,
+              initial: [-0.2,-0.1],
+              fadeIn:3000,
+              shuffleTags:true,
+              dragControl:true,
+              shadowBlur:10,
+              shadow:"#06C5A9",
+              shadowOffset:[1,1],
+          });
+          
+        } catch(e) {
+          // something went wrong, hide the canvas container
+          document.getElementById('myCanvasContainer').style.display = 'none';
+        }
+      };
+    </script>
+   
+    <div class="sphere">
+        <div id="myCanvasContainer">
+        <canvas width="600" height="600" id="myCanvas">
+            <p>Anything in here will be replaced on browsers that support the canvas element</p>
+        </canvas>
+        </div>
+        <div id="tags">
+            <ul>
+                <li><a href="#">HTML 5</a></li>
+                <li><a href="#">CSS 3</a></li>
+                <li><a href="#">SASS</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">SVG</a></li>
+                <li><a href="#">Canvas</a></li>
+                <li><a href="#">Vue</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">Laravel</a></li>
+                <li><a href="#">Git</a></li>
+                <li><a href="#">Wordpress</a></li>
+                <li><a href="#">AJAX</a></li>
+                <li><a href="#">JSON</a></li>
+                <li><a href="#">Angular JS</a></li>
+                <li><a href="#">Node JS</a></li>
+                <li><a href="#">XML</a></li>
+                <li><a href="#">WAMP</a></li>
+                <li><a href="#">Drupal</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">Magento</a></li>
+                
+                <li><a href="#">npm</a></li>
+                <li><a href="#">Express.js</a></li>
+                <li><a href="#">REST</a></li>
+                <li><a href="#">Mongo DB</a></li>
+                <li><a href="#">Wordpress</a></li>
+                <li><a href="#">AJAX</a></li>
+                <li><a href="#">JSON</a></li>
+                <li><a href="#">JSON</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+<!-- ---------------------------------------------------------- -->    
+    
     
     <div class="footer">  
         <span class="green">&lt</span>

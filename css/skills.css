@@ -137,6 +137,14 @@ html {
     margin-right: -10px;
 }
 
+.sphere {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 600px;
+    height: 600px;    
+}
+
 .tag_body {
     top:12%;
     left:6%;
