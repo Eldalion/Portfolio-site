@@ -113,6 +113,7 @@ html {
     z-index: 1;
     top: 30%;
     left: 10%;
+    width: 30%;
 }
 
 .introduction h1 {
@@ -122,6 +123,17 @@ html {
     font-weight: 600;
     margin-bottom: 0;
     line-height: 100%;
+}
+
+.introduction p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    font-size: 14px;
+    /*width: 60%;*/
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 18px;
 }
 
 .introduction h1 span {
@@ -158,7 +170,7 @@ html {
 }
 
 .tag_h1_close {
-    top:105%;
+    top:38%;
     left:0%;
 }
 

@@ -113,7 +113,7 @@ html {
     z-index: 1;
     top: 30%;
     left: 10%;
-    width: 35%;
+    width: 30%;
 }
 
 .introduction h1 {
@@ -129,12 +129,13 @@ html {
 }
 
 .introduction p {
+    text-align: justify;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     font-size: 14px;
     /*width: 60%;*/
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1.5px;
     line-height: 18px;
 }
