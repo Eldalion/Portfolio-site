@@ -38,15 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-radio2:before {
-  content: "\64";
-}
-.icon-radio3:before {
-  content: "\65";
-}
-.icon-radio4:before {
-  content: "\66";
-}
 .icon-home:before {
   content: "\62";
 }
@@ -74,7 +65,6 @@
 .icon-boombox:before {
   content: "\6c";
 }
-
-.icon-boombox-1:before {
-  content: "\6d";
+.icon-mark-github:before {
+  content: "\64";
 }
