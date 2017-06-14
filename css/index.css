@@ -1,3 +1,4 @@
+/* -------------------------- GENERAL ------------------------------ */
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +33,7 @@ html {
 }
 
 /* ---------------------------- MENU -------------------------------- */
+
 .menu {
     position: absolute;
     top: 0;
@@ -46,9 +48,9 @@ html {
     width: 55px;
 }
 
-.logo span {
+.logo > span {
     display: inline-block;
-    padding:10% 5% 0 10%;
+    padding:12% 0 0 30%;
     font-size: 400%;
     font-family: 'Archivo Narrow', sans-serif;
     color: #08fdd8;
@@ -143,7 +145,7 @@ html {
     display: inline-block;
 }
 
-.letter_f {
+.introduction .letter_f {
     color: #08fdd8;
     /*text-shadow: -5px -5px 0px rgba(252, 16, 86, 1);*/
     text-shadow: -5px -5px 0px rgb(77, 162, 252);
@@ -151,7 +153,6 @@ html {
     margin-left: 10px;
     margin-right: -10px;
 }
-
 
 .introduction h1 span:hover {
     color: #08FDD8;
@@ -233,7 +234,7 @@ html {
     color: #08fdd8;
 }
 
-/* ------------------------------ FOOTER ------------------------------ */
+/* ----------------------------- FOOTER ----------------------------- */
 
 .footer {
     position: absolute;
@@ -268,25 +269,20 @@ html {
 
 @media screen and (min-width:721px) and (max-width:1500px){
     .tag_body {
-        /*left: 12%;*/
         left:105px;
     }
     .tag_body_close {
-        /*left: 12%;*/
         left:105px;
     }
 
     .tag_html_close {
-        /*left:8%;*/ 
         left: 70px;
     }
     
     .introduction {
-        /*left: 18%;*/
         left: 140px;
     }
 }
-
 
 @media screen and (max-width:1000px){
     .letter_f_image {
@@ -356,7 +352,6 @@ html {
         padding: 15px 4% 4% 4%;
         font-size: 1.5em;
         color: #8d8d8d;
-        /*transition: all 0.4s;*/
     }
     
     .social_icons {
@@ -435,8 +430,6 @@ html {
         display: none;
     }
     
-   
-    
     .introduction h1 {
         font-size: 240%;
         font-weight: 600;
@@ -498,8 +491,6 @@ html {
     #particles-js {
         
         height: 105%;
-        
-        
     }
 }
 
