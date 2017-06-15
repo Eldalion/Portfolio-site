@@ -112,7 +112,7 @@ html {
 .introduction {
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 20%;
     left: 10%;
 }
 
@@ -176,6 +176,26 @@ html {
 
 .tag_body:hover, .tag_h1:hover, .tag_body_close:hover, .tag_html_close:hover, .tag_h1_close:hover {
     color: #08fdd8;
+}
+
+/* ----------------------------- PORTFOLIO ---------------------------- */
+
+.portfolio {
+    position: absolute;
+    width: 80%;
+    top: 35%;
+    left: 10%;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 320px;
+    height: 200px;
+
+}
+
+.portfolio img:hover {
+    opacity: 0.3;
 }
 
 /* ------------------------------ FOOTER ------------------------------ */
@@ -433,7 +453,7 @@ html {
     }
     
     .footer {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
     
     .letter_f_image {
