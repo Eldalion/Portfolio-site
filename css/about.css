@@ -361,6 +361,27 @@ html {
     }
 }
 
+@media screen and (max-width:1024px){
+    #main_cube {
+        display: none;
+    }
+    
+    .introduction {
+        width: 60%;
+    }
+    
+    .introduction p {
+        font-size: 1.2em;
+        letter-spacing: 3px;
+        line-height: 1.5;
+        word-spacing: -2px;
+    }
+    
+    .tag_h1_close {
+        top:20%;
+    }
+}
+
 @media screen and (max-width:720px){
     .menu {
         background-color: #181818;
@@ -420,7 +441,7 @@ html {
     
     .blog {
         display: none;
-    }
+    } 
 }
 
 @media screen and (max-width:359){
@@ -445,8 +466,8 @@ html {
     }
     
     .introduction {
-        top: 20%;
-        overflow: hidden;
+        top: 15%;
+        width: 80%;
     }
     
     .introduction h1 {
@@ -456,6 +477,25 @@ html {
     
     .introduction i {
         font-size: 340%;
+    }
+    
+    .introduction p {
+        font-size: 0.8em;
+    }
+    
+    .tag_h1_close {
+        top:22%;
+        left:0%;
+    }
+    
+    .tag_body_close {
+        top: 84%;
+        left:7%;
+    }
+
+    .tag_html_close {
+        top: 87%;
+        left:6%;  
     }
     
 }
@@ -478,14 +518,23 @@ html {
         display: none;
     }
     
-   
+    .introduction {
+        top: 17%;
+    }
     
     .introduction h1 {
         font-size: 240%;
         font-weight: 600;
+        margin-bottom: 5%;
     }
     
-
+    .introduction p {
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        font-size: 0.8em;
+        margin: 3% 0;
+    }
+    
     .tag_body {
         top:15%;
         left:3%;
@@ -493,25 +542,25 @@ html {
     }
 
     .tag_h1 {
-        top:3%;
-        left: 0;
+        top:4%;
+        left:0;
         font-size: 0.8em;
     }
 
     .tag_h1_close {
-        top:55%;
-        left:88%;
+        top:15%;
+        left:65%;
         font-size: 0.8em;
     }
 
     .tag_body_close {
-        top: 80%;
+        top: 85%;
         left:3%;
         font-size: 0.8em;
     }
 
     .tag_html_close {
-        top: 83%;
+        top: 88%;
         left:2%;  
         font-size: 0.8em;
     }
@@ -525,13 +574,9 @@ html {
     }
     
     #particles-js {
-        
         height: 105%;
-        
-        
     }
 }
-
 
 
 
