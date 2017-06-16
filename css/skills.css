@@ -283,6 +283,21 @@ html {
     }
 }
 
+@media screen and (max-width:1024px){
+    .sphere {
+        display: none;
+    }
+    
+    .introduction {
+        width: 80%;
+    }
+    
+    .tag_h1_close {
+        top:20%;
+        
+    }
+}
+
 @media screen and (max-width:720px){
     .menu {
         background-color: #181818;
@@ -372,12 +387,26 @@ html {
     }
     
     .introduction h1 {
-        font-size: 340%;
+        font-size: 220%;
         font-weight: 600;
     }
     
-    .introduction i {
-        font-size: 340%;
+    .introduction p {
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+    
+    .tag_h1 {
+        top:2%;
+        left: 0;
+    }
+
+    .tag_h1_close {
+        top:20%;
+        left:0%;
     }
     
 }
@@ -400,26 +429,17 @@ html {
         display: none;
     }
     
-   
-    
     .introduction h1 {
-        font-size: 240%;
+        font-size: 200%;
         font-weight: 600;
     }
     
-    .introduction i {
-        font-size: 240%;
-        right: 8%;
-    }
-    
-    .introduction h2 {
-        font-size: 0.8em;
-        letter-spacing: ;
-    }
-    
-    .introduction a {
-        font-size: 60%;
-        margin-top: 25px;
+    .introduction p {
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 18px;
     }
     
     .tag_body {
@@ -435,19 +455,19 @@ html {
     }
 
     .tag_h1_close {
-        top:55%;
-        left:88%;
+        top:20%;
+        left:0%;
         font-size: 0.8em;
     }
 
     .tag_body_close {
-        top: 80%;
+        top: 83%;
         left:3%;
         font-size: 0.8em;
     }
 
     .tag_html_close {
-        top: 83%;
+        top: 86%;
         left:2%;  
         font-size: 0.8em;
     }
@@ -463,8 +483,6 @@ html {
     #particles-js {
         
         height: 105%;
-        
-        
     }
 }
 
