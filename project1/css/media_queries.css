@@ -1,0 +1,134 @@
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    heaver nav li,
+    #newletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header {
+        padding-bottom: 20px;
+    }
+    
+    header li {
+        float: none;
+        display: inline-block;
+    }
+    
+    #showcase h1 {
+        margin-top: 40px;
+    }
+    
+    .container {
+        width: 90%;
+    }
+    
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+    
+    .quote button {
+        width: 93%;
+    }
+    
+    #newsletter  form input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    #boxes .box {
+        padding: 0;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
