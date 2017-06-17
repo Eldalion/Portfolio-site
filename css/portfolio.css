@@ -185,12 +185,12 @@ html {
     width: 80%;
     top: 38%;
     left: 10%;
-    text-align: center;
+    text-align: left;
 }
 
 .portfolio img {
-    width: 320px;
-    height: 200px;
+    width: 20%;
+    height: auto;
 
 }
 
@@ -287,15 +287,16 @@ html {
     
     .portfolio {
         width: 80%;
-        left: 13%;
-        top: 43%;
+        left: 18%;
+        top: 35%;
     }
     
     .portfolio img {
-        width: 200px;
-        height: 140px;
+        width: 40%;
+        height: auto;
     }
     
+   
     /*.tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
         font-size: 1.4em;        
     } */
@@ -395,8 +396,18 @@ html {
     }
     
     .portfolio {
-        display: none;
+        width: 90%;
+        top: 38%;
+        left: 10%;
+        text-align: left;
     }
+
+    .portfolio img {
+        width: 45%;
+        height: auto;
+    }
+    
+    
     
     .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
         font-size: 0.8;        
@@ -430,6 +441,18 @@ html {
         font-weight: 600;
     }
     
+    .portfolio {
+        width: 90%;
+        top: 38%;
+        left: 10%;
+        text-align: left;
+    }
+
+    .portfolio img {
+        width: 45%;
+        height: auto;
+    }
+    
     .tag_body {
         top:15%;
         left:3%;
@@ -449,13 +472,13 @@ html {
     }
 
     .tag_body_close {
-        top: 80%;
+        top: 85%;
         left:3%;
         font-size: 0.8em;
     }
 
     .tag_html_close {
-        top: 83%;
+        top: 88%;
         left:2%;  
         font-size: 0.8em;
     }
@@ -471,8 +494,6 @@ html {
     #particles-js {
         
         height: 105%;
-        
-        
     }
 }
 
