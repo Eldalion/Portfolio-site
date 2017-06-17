@@ -317,9 +317,9 @@ html {
         
     }
     
-    .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
+    /*.tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
         font-size: 1.4em;        
-    } 
+    } */
     
 }
 
@@ -407,8 +407,8 @@ html {
     }
     
     .introduction {
-        top: 20%;
-        overflow: hidden;
+        top: 18%;
+        width: 80%;
     }
     
     .introduction h1 {
@@ -434,6 +434,8 @@ html {
         left:0%;
     }
     
+    
+    
 }
 
 @media screen and (max-width:320px){
@@ -454,14 +456,18 @@ html {
         display: none;
     }
     
+    .introduction {
+        top: 20%;
+    }
+    
     .introduction h1 {
-        font-size: 200%;
+        font-size: 160%;
         font-weight: 600;
     }
     
     .introduction p {
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 300;
         letter-spacing: 1px;
         line-height: 18px;
@@ -474,13 +480,13 @@ html {
     }
 
     .tag_h1 {
-        top:3%;
+        top:0%;
         left: 0;
         font-size: 0.8em;
     }
 
     .tag_h1_close {
-        top:20%;
+        top:18%;
         left:0%;
         font-size: 0.8em;
     }

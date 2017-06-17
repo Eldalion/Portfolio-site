@@ -341,9 +341,9 @@ html {
         top:20%; 
     }
     
-    .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
+    /*.tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
         font-size: 1.4em;        
-    } 
+    } */
 }
 
 @media screen and (max-width:720px){
@@ -479,6 +479,12 @@ html {
     .introduction form textarea {
         height: 110px;
         font-size: 12px;
+    }
+    
+    .tag_h1_close {
+        top:18%;
+        left:85%;
+        
     }
     
     #map {

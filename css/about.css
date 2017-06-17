@@ -393,9 +393,6 @@ html {
         left: 40%;
     }
     
-    .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
-        font-size: 1.4em;        
-    } 
 }
 
 @media screen and (max-width:720px){
@@ -436,7 +433,6 @@ html {
         padding: 15px 4% 4% 4%;
         font-size: 1.5em;
         color: #8d8d8d;
-        /*transition: all 0.4s;*/
     }
     
     .social_icons {
@@ -482,18 +478,19 @@ html {
     }
     
     .introduction {
-        top: 20%;
+        top: 18%;
         width: 80%;
     }
     
     .introduction h1 {
         font-size: 220%;
         font-weight: 600;
+        margin-bottom: 0;
     }
     
     .introduction p {
-        margin-top: 25px;
-        font-size: 14px;
+        margin-top: 10px;
+        font-size: 13px;
         font-weight: 300;
         letter-spacing: 1px;
         line-height: 18px;
@@ -505,8 +502,8 @@ html {
     }
     
     .tag_h1_close {
-        top:16%;
-        left:0%;
+        top:10%;
+        left:50%;
     }
     
     .tag_body_close {
@@ -517,6 +514,10 @@ html {
     .tag_html_close {
         top: 87%;
         left:6%;  
+    }
+    
+    .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
+        font-size: 0.8;        
     }
     
 }

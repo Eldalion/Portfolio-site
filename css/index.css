@@ -398,16 +398,22 @@ html {
     
     .introduction {
         top: 20%;
-        overflow: hidden;
+        width: 80%;
+        overflow: visible;
     }
     
     .introduction h1 {
-        font-size: 340%;
+        font-size: 280%;
         font-weight: 600;
     }
     
     .introduction i {
         font-size: 340%;
+    }
+    
+    .tag_h1_close {
+        top:55%;
+        left:94%;
     }
     
 }
