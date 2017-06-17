@@ -183,7 +183,7 @@ html {
 .portfolio {
     position: absolute;
     width: 80%;
-    top: 35%;
+    top: 38%;
     left: 10%;
     text-align: center;
 }
@@ -283,6 +283,24 @@ html {
     }
 }
 
+@media screen and (max-width:1024px){
+    
+    .portfolio {
+        width: 80%;
+        left: 13%;
+        top: 43%;
+    }
+    
+    .portfolio img {
+        width: 200px;
+        height: 140px;
+    }
+    
+    .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
+        font-size: 1.4em;        
+    } 
+}
+
 @media screen and (max-width:720px){
     .menu {
         background-color: #181818;
@@ -376,10 +394,9 @@ html {
         font-weight: 600;
     }
     
-    .introduction i {
-        font-size: 340%;
+    .portfolio {
+        display: none;
     }
-    
 }
 
 @media screen and (max-width:320px){
