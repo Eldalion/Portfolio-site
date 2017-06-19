@@ -153,13 +153,56 @@ $("#radio").on("click",function(){
   }
 });
 
-/*$.ajax({
-    url:'galery.html',
-    type: 'GET',
-    dataType: 'html'
-}).done(function (data){
-    $(".portfolio").html(data);
-});*/
+
+
+
+
+
+$("#bootstrap_button").on("click", function(){
+    $(".portfolio_gallery").hide();
+    
+    $.ajax({
+        url:'bootstrap_gallery.html',
+        type: 'GET',
+        dataType: 'html'
+    }).done(function (data){
+        $(".portfolio_gallery").html(data).fadeIn('slow');
+    });
+});
+
+$("#javascript_button").on("click", function(){
+    $(".portfolio_gallery").hide();
+    $.ajax({
+        url:'javascript_gallery.html',
+        type: 'GET',
+        dataType: 'html'
+    }).done(function (data){
+        $(".portfolio_gallery").html(data).fadeIn('slow');
+    });
+});
+
+$("#jquery_button").on("click", function(){
+    $(".portfolio_gallery").hide();
+    $.ajax({
+        url:'jquery_gallery.html',
+        type: 'GET',
+        dataType: 'html'
+    }).done(function (data){
+        $(".portfolio_gallery").html(data).fadeIn('slow');
+    });
+});
+
+$("#react_button").on("click", function(){
+    $(".portfolio_gallery").hide();
+    $.ajax({
+        url:'react_gallery.html',
+        type: 'GET',
+        dataType: 'html'
+    }).done(function (data){
+        $(".portfolio_gallery").html(data).fadeIn('slow');
+    });
+});
+
 
 
 
