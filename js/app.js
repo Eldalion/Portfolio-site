@@ -153,6 +153,13 @@ $("#radio").on("click",function(){
   }
 });
 
+/*$.ajax({
+    url:'galery.html',
+    type: 'GET',
+    dataType: 'html'
+}).done(function (data){
+    $(".portfolio").html(data);
+});*/
 
 
 

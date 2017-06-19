@@ -183,9 +183,14 @@ html {
 .portfolio {
     position: absolute;
     width: 80%;
-    top: 38%;
+    top: 35%;
     left: 10%;
-    text-align: left;
+    text-align: center;
+    padding: 1% 1% 10% 1%;
+}
+
+.shadow {
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio img {
@@ -197,6 +202,36 @@ html {
 .portfolio img:hover {
     opacity: 0.3;
 }
+
+.portfolio_nav {
+    padding: 1% 1% 2% 1%; 
+    
+}
+
+.portfolio_nav a {
+    display: inline-block;
+    color:#08fdd8;
+    font-size: 100%;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #08fdd8;
+    margin: 0 1%;
+}
+
+.portfolio_nav a {
+    font-size: 100%;
+    letter-spacing: 3px;
+    padding: 6px 10px;
+    margin: 0 1%;
+}
+
+.portfolio_nav a:hover {
+    color: #252627;
+    background-color: #08fdd8;
+}
+
 
 /* ------------------------------ FOOTER ------------------------------ */
 
@@ -287,7 +322,7 @@ html {
     
     .portfolio {
         width: 80%;
-        left: 18%;
+        left: 14%;
         top: 35%;
     }
     
@@ -295,6 +330,8 @@ html {
         width: 40%;
         height: auto;
     }
+    
+
     
    
     /*.tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
@@ -396,15 +433,28 @@ html {
     }
     
     .portfolio {
-        width: 90%;
-        top: 38%;
-        left: 10%;
-        text-align: left;
+        width: 96%;
+        top: 35%;
+        left: 2%;
+        text-align: center;
+        padding: 1% 0% 5% 0%;
     }
 
     .portfolio img {
         width: 45%;
         height: auto;
+    }
+    
+    .portfolio_nav {
+        text-align: center;
+        padding: 7% 0;
+    }
+    
+    .portfolio_nav a {
+        font-size: 75%;
+        letter-spacing: 3px;
+        padding: 4px 6px;
+        margin: 0 0.1%;
     }
     
     
@@ -442,10 +492,22 @@ html {
     }
     
     .portfolio {
-        width: 90%;
-        top: 38%;
-        left: 10%;
-        text-align: left;
+        width: 96%;
+        top: 35%;
+        left: 2%;
+        text-align: center;
+        padding: 1% 0% 5% 0%;
+    }
+    
+    .portfolio_nav {
+        padding: 5% 0;
+    }
+    
+    .portfolio_nav a {
+        font-size: 60%;
+        letter-spacing: 3px;
+        padding: 3px 5px;
+        margin: 0 0.1%;
     }
 
     .portfolio img {
