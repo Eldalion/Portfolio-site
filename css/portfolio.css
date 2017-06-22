@@ -194,7 +194,7 @@ html {
 .portfolio img {
     width: 20%;
     height: auto;
-
+    margin: 3px;
 }
 
 .portfolio img:hover {

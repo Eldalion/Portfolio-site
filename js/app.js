@@ -157,36 +157,36 @@ $("#radio").on("click",function(){
 
 var gallery = $(".portfolio_gallery");
 
+$("#html_css_button").on("click", function(){
+    gallery.hide();
+    $.ajax({
+        url:'html_css_gallery.html',
+        type: 'GET',
+        dataType: 'html'
+    }).done(function (data){
+        gallery.html($(data).find("a")).fadeIn(1000);
+    });
+});
+
 $("#bootstrap_button").on("click", function(){
     gallery.hide();
     $.ajax({
-        url:'bootstrap_gallery.html',
+        url:'bootstrap.html',
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn(1000);
+        gallery.html($(data).find("a")).fadeIn(1000);
     });
 });
 
-$("#javascript_button").on("click", function(){
+$("#js_jquery_button").on("click", function(){
     gallery.hide();
     $.ajax({
-        url:'javascript_gallery.html',
+        url:'js_jquery_gallery.html',
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn(1000);
-    });
-});
-
-$("#jquery_button").on("click", function(){
-    gallery.hide();
-    $.ajax({
-        url:'jquery_gallery.html',
-        type: 'GET',
-        dataType: 'html'
-    }).done(function (data){
-        gallery.html(data).fadeIn(1000);
+        gallery.html($(data).find("a")).fadeIn(1000);
     });
 });
 
@@ -197,7 +197,7 @@ $("#react_button").on("click", function(){
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn(1000);
+        gallery.html($(data).find("a")).fadeIn(1000);
     });
 });
 
