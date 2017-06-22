@@ -143,6 +143,7 @@ html {
 
 .introduction h1 span {
     display: inline-block;
+    
 }
 
 .introduction .letter_f {
@@ -153,6 +154,7 @@ html {
     margin-left: 10px;
     margin-right: -10px;
 }
+
 
 .introduction h1 span:hover {
     color: #08FDD8;

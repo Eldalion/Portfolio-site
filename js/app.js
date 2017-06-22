@@ -164,7 +164,7 @@ $("#bootstrap_button").on("click", function(){
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn('slow');
+        gallery.html(data).fadeIn(1000);
     });
 });
 
@@ -175,7 +175,7 @@ $("#javascript_button").on("click", function(){
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn('slow');
+        gallery.html(data).fadeIn(1000);
     });
 });
 
@@ -186,7 +186,7 @@ $("#jquery_button").on("click", function(){
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn('slow');
+        gallery.html(data).fadeIn(1000);
     });
 });
 
@@ -197,7 +197,7 @@ $("#react_button").on("click", function(){
         type: 'GET',
         dataType: 'html'
     }).done(function (data){
-        gallery.html(data).fadeIn('slow');
+        gallery.html(data).fadeIn(1000);
     });
 });
 
