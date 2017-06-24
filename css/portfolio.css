@@ -431,7 +431,8 @@ html {
     
     .portfolio {
         width: 96%;
-        top: 35%;
+        height: 50%;
+        top: 30%;
         left: 2%;
         text-align: center;
         padding: 1% 0% 5% 0%;
@@ -445,8 +446,12 @@ html {
     
     .portfolio_nav {
         text-align: center;
-        padding: 7% 0;
+        padding: 4% 0;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
+    
+    
     
     .portfolio_nav a {
         font-size: 75%;
@@ -455,6 +460,11 @@ html {
         margin: 0 0.1%;
     }
     
+    .tag_h1_close {
+        top:68%;
+        left:48%;
+        
+    }
     
     
     .tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
@@ -499,7 +509,11 @@ html {
     
     .portfolio_nav {
         padding: 5% 0;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
+    
+    
     
     .portfolio_nav a {
         font-size: 60%;
