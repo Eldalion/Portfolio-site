@@ -130,7 +130,6 @@ html {
 .introduction i:hover {
     color: #08fdd8;
     transform: rotate(0deg);
-    opacity: 0;
 }
 
 .introduction h1 {
