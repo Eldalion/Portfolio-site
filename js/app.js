@@ -1,14 +1,63 @@
-(function($){
+$(function() {
+    var chars = $("h1").blast({
+        delimiter: 'character'
+    });
     
-    if (window.matchMedia('(min-width: 721px)').matches) {
-        $(".navigation i").hover(function(){
-            $(this).next().slideDown().css("display","block");
-        },function(){
-            $(this).next().slideUp();
-        });
-    }
+    // A character by character animation
+        chars.each(function(i) {
+    // initialize position
+        $(this).css({
+        position: "relative",
+        bottom: "50px",
+        opacity:0
+        })
+
+    // Delay: we don't want to animate
+    // characters simultaneously
+        .delay(i * 80)
+
+    // Animate to the right
+        .animate({ 
+        bottom: 0,
+        opacity: 1
+        }, 300);
+            
+        $(".contact_button").css({
+            position: "relative",
+            bottom: "50px",
+            opacity:0
+        })
+        .delay(1800)
+        .animate({ 
+        bottom: 0,
+        opacity: 1
+        }, 300);
+            
+        $(".introduction h2").css({
+            position: "relative",
+            bottom: "50px",
+            opacity:0
+        })
+        .delay(1900)
+        .animate({ 
+        bottom: 0,
+        opacity: 1
+        }, 300);
+            
+        $(".letter_f_image").css({
+            opacity:0
+        })
+        .delay(1900)
+        .animate({ 
+        opacity: 1
+        }, 600);
+    });
+
+
+   
 
     $(".introduction span").addClass("bounce");
+    $(".introduction span:nth-of-type(7)").addClass("letter_f");
 
     $(".bounce:not(.letter_f), .contact_button").mouseenter(function (){
         var el = $(this);
@@ -33,6 +82,25 @@
 
 
 
+    
+    
+});
+
+
+
+ 
+
+
+(function(){
+    
+   if (window.matchMedia('(min-width: 721px)').matches) {
+        $(".navigation i").hover(function(){
+            $(this).next().slideDown().css("display","block");
+        },function(){
+            $(this).next().slideUp();
+        });
+    }
+    
     var gallery = $(".portfolio_gallery");
 
     $("#html_css_button").on("click", function(){
@@ -79,8 +147,7 @@
             
         });
     });
-    
-})(jQuery);
+})();
 
 
 
