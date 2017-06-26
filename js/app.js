@@ -11,50 +11,62 @@ $(function() {
         bottom: "50px",
         opacity:0
         })
-
     // Delay: we don't want to animate
     // characters simultaneously
         .delay(i * 80)
-
     // Animate to the right
         .animate({ 
         bottom: 0,
         opacity: 1
         }, 300);
             
-        $(".contact_button").css({
-            position: "relative",
-            bottom: "50px",
-            opacity:0
-        })
-        .delay(1800)
-        .animate({ 
-        bottom: 0,
-        opacity: 1
-        }, 300);
-            
-        $(".introduction h2").css({
-            position: "relative",
-            bottom: "50px",
-            opacity:0
-        })
-        .delay(1900)
-        .animate({ 
-        bottom: 0,
-        opacity: 1
-        }, 300);
-            
-        $(".letter_f_image").css({
-            opacity:0
-        })
-        .delay(1900)
-        .animate({ 
-        opacity: 1
-        }, 600);
     });
-
-
-   
+    
+    $(".contact_button").css({
+        position: "relative",
+        bottom: "50px",
+        opacity:0
+    })
+    .delay(1800)
+    .animate({ 
+    bottom: 0,
+    opacity: 1
+    }, 300);
+            
+    $(".tag_h1,.tag_h1_close").css({
+        opacity:0
+    })
+    .delay(1200)
+    .animate({ 
+    opacity: 1
+    }, 700);
+            
+    $("#radio").css({
+        opacity:0
+    })
+    .delay(1900)
+    .animate({ 
+    opacity: 1
+    }, 700);
+            
+    $(".introduction h2").css({
+        position: "relative",
+        bottom: "50px",
+        opacity:0
+    })
+    .delay(1900)
+    .animate({ 
+    bottom: 0,
+    opacity: 1
+    }, 300);
+            
+    $(".letter_f_image").css({
+        opacity:0
+    })
+    .delay(1900)
+    .animate({ 
+    opacity: 1
+    }, 600);
 
     $(".introduction span").addClass("bounce");
     $(".introduction span:nth-of-type(7)").addClass("letter_f");
@@ -80,16 +92,7 @@ $(function() {
       }
     });
 
-
-
-    
-    
 });
-
-
-
- 
-
 
 (function(){
     
@@ -147,6 +150,8 @@ $(function() {
             
         });
     });
+    
+    
 })();
 
 
