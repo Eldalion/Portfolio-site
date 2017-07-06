@@ -59,14 +59,15 @@
         <h1>
             <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span><span>&nbsp;</span><span>m</span><span>e</span>
         </h1>
-        <form action="#">
-            <input type="text" placeholder="Name" class="name">
-            <input type="email" placeholder="Email" class="email"> 
-            <input type="text" placeholder="Subject" class="subject">
-            
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        
+        <form action="mailer.php" method="post">
+            <input name="name" type="text" placeholder="Name" class="name" required>
+            <input name="email" type="email" placeholder="Email" class="email" required> 
+            <input name="subject" type="text" placeholder="Subject" class="subject" required>
+            <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
             <input type="submit" value="SEND" class="button bounce">
         </form>
+        
         <span class="tag_h1">&lth1&gt</span>
         <span class="tag_h1_close">&lt/h1&gt</span>
     </div>
@@ -75,7 +76,7 @@
 <!-- -------------------------- FOOTER -------------------------- -->     
     <div class="footer">  
         <span class="green">&lt</span>
-        <span class="name">Frantisek Meciar</span>
+        <span class="name">Frantisek Meciar, &copy; 2017</span>
         <span class="green">/&gt</span>
     </div>
     <a href="http://www.eldalion.com"><img src="img/blog.svg" alt="" class="blog"></a>

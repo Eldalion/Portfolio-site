@@ -186,6 +186,27 @@ html {
     background-color: #08fdd8;
 }
 
+.success, .error {
+    float: left;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    padding: 3px 10px;
+    margin: 3% 1% 1% 1%;
+}
+
+.success {
+    color: #08FDD8;
+    border: 1px solid #08FDD8;
+}
+
+.error {
+    color: #e32c2c;
+    border: 1px solid #e32c2c;
+}
+
 #map {
     position: absolute;
     z-index: 1;
@@ -268,11 +289,6 @@ html {
     width: 200px;
 }
 
-.soon {
-    position: absolute;
-    width: 50%;
-    left: 25%;
-}
 
 /* ------------------------- MEDIA QUERIES ----------------------------- */
 
@@ -340,10 +356,6 @@ html {
     .tag_h1_close {
         top:20%; 
     }
-    
-    /*.tag_h1, .tag_h1_close, .tag_body, .tag_body_close, .tag_html_close {
-        font-size: 1.4em;        
-    } */
 }
 
 @media screen and (max-width:720px){
@@ -484,13 +496,11 @@ html {
     .tag_h1_close {
         top:18%;
         left:85%;
-        
     }
     
     #map {
         display: none;
     }
-    
 }
 
 @media screen and (max-width:360px){
@@ -510,8 +520,6 @@ html {
     .social_icons {
         display: none;
     }
-    
-   
     
     .introduction h1 {
         font-size: 240%;
@@ -536,35 +544,37 @@ html {
     .tag_body {
         top:15%;
         left:3%;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_h1 {
         top:3%;
         left: 0;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_h1_close {
         top:22%;
         left:0%;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_body_close {
         top: 85%;
         left:3%;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_html_close {
         top: 88%;
         left:2%;  
-        font-size: 0.8em;
+        font-size: 13px;
     }
-    
+
     .footer {
-        font-size: 0.8em;
+        left: 0;
+        width: 100%;
+        font-size: 13px;
     }
     
     .letter_f_image {
@@ -572,10 +582,7 @@ html {
     }
     
     #particles-js {
-        
         height: 105%;
-        
-        
     }
 }
 

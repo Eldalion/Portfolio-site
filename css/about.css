@@ -522,7 +522,7 @@ html {
     
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     
     .logo {
         display: none;
@@ -561,39 +561,40 @@ html {
         margin: 3% 0;
     }
     
-    
     .tag_body {
         top:15%;
         left:3%;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_h1 {
         top:3%;
         left:0;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_h1_close {
         top:12%;
         left:50%;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_body_close {
         top: 85%;
         left:3%;
-        font-size: 0.8em;
+        font-size: 13px;
     }
 
     .tag_html_close {
         top: 88%;
         left:2%;  
-        font-size: 0.8em;
+        font-size: 13px;
     }
     
     .footer {
-        font-size: 0.8em;
+        left: 0;
+        width: 100%;
+        font-size: 13px;
     }
     
     .letter_f_image {
