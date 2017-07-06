@@ -389,10 +389,18 @@ html {
     }
     
     .tag_h1_close {
+        top:15%;
+        left:30%;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    
+    .tag_h1_close {
         top:12%;
         left: 40%;
     }
-    
 }
 
 @media screen and (max-width:720px){
@@ -605,6 +613,8 @@ html {
         height: 105%;
     }
 }
+
+
 
 
 

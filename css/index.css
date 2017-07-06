@@ -302,6 +302,7 @@ html {
 }
 
 @media screen and (min-width:1300px){
+    
     .letter_f_image {
         width: 400px;
         top: 20%;
@@ -310,6 +311,7 @@ html {
 }
 
 @media screen and (min-width:1400px){
+    
     .letter_f_image {
         width: 450px;
         top: 15%;
@@ -317,7 +319,22 @@ html {
     }
 }
 
+@media screen and (max-width:1024px){
+    
+    .tag_h1_close {
+        top:66%;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+    .tag_h1_close {
+        top:65%;
+    }
+}
+
 @media screen and (max-width:720px){
+    
     .menu {
         background-color: #181818;
         width: 100%;
@@ -415,8 +432,8 @@ html {
     }
     
     .tag_h1_close {
-        top:55%;
-        left:94%;
+        top:56%;
+        left:90%;
     }
     
 }
@@ -472,8 +489,8 @@ html {
     }
 
     .tag_h1_close {
-        top:55%;
-        left:88%;
+        top:58%;
+        left:85%;
         font-size: 13px;
     }
 
@@ -504,7 +521,13 @@ html {
     }
 }
 
-
+@media screen and (max-width:320px){
+    
+    .tag_h1_close {
+        top: 55%;
+        left:92%;
+    }
+}
 
 
 
