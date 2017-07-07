@@ -188,7 +188,8 @@ html {
 
 .success, .error {
     float: left;
-    width: 70%;
+    text-align: center;
+    width: 30%;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     font-family: 'Shadows Into Light', cursive;
@@ -493,6 +494,10 @@ html {
         font-size: 12px;
     }
     
+    .success, .error {
+        width: 50%;
+    }
+    
     .tag_h1_close {
         top:18%;
         left:85%;
@@ -560,13 +565,13 @@ html {
     }
 
     .tag_body_close {
-        top: 85%;
+        top: 88%;
         left:3%;
         font-size: 13px;
     }
 
     .tag_html_close {
-        top: 88%;
+        top: 91%;
         left:2%;  
         font-size: 13px;
     }

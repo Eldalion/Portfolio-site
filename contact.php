@@ -68,6 +68,19 @@
             <input name="email" type="email" placeholder="Email" class="email" required> 
             <input name="subject" type="text" placeholder="Subject" class="subject" required>
             <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+            
+            <?php
+                
+                if($_GET['success'] == 1) {
+                    echo "<div class=\"success\">Sent !</div>";
+                }
+            
+                if($_GET['success'] == -1) {
+                    echo "<div class=\"success\">Error !</div>";
+                }
+            
+            ?>
+
             <input type="submit" value="SEND" class="button bounce">
         </form>
         

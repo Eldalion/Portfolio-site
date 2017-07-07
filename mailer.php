@@ -45,12 +45,12 @@ $mail->Body    = $email_content;
 //send the message, check for errors
 if(!$mail->send()) 
 {
-    echo 'Message could not be sent.';
+    header("Location: http://www.frantisekmeciar.com/contact.php?success=-1");
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } 
 else 
 {
-    echo 'Message has been sent';
+    header("Location: http://www.frantisekmeciar.com/contact.php?success=1");
 }
 
 ?>
