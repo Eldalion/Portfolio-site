@@ -22,14 +22,24 @@ $mail->Username = 'eldalion@frantisekmeciar.com';
 //Password to use for SMTP authentication
 $mail->Password = 'lSOhNwE0D8';
 //Set who the message is to be sent from
-$mail->setFrom('eldalion@frantisekmeciar.com', 'Mailer');
+$mail->setFrom('eldalion@frantisekmeciar.com', 'Portfolio Contact Form Message');
 //Set who the message is to be sent to
 $mail->addAddress('frantisek.meciar@gmail.com', 'Frantisek Meciar');
 
+$name = strip_tags(trim($_POST["name"]));
+$name = str_replace(array("\r","\n"),array(" "," "),$name);
+$subject = strip_tags(trim($_POST["subject"]));
+$subject = str_replace(array("\r","\n"),array(" "," "),$name);
+$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+$message = trim($_POST["message"]);
 
-$mail->Subject = 'Here is the subject';
-$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+$email_content = "Name: $name\n";
+$email_content .= "Email: $email\n\n";
+$email_content .= "Message:\n$message\n";
+
+$mail->Subject = $subject;
+$mail->Body    = $email_content;
+
 
                   
 //send the message, check for errors
