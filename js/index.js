@@ -95,14 +95,13 @@ $("#radio").on("click",function(){
       }
     });
     
-   if (window.matchMedia('(min-width: 721px)').matches) {
+    if (window.matchMedia('(min-width: 721px)').matches) {
         $(".navigation i").hover(function(){
             $(this).next().slideDown().css("display","block");
         },function(){
             $(this).next().slideUp();
         });
     }
-
 
 
 
