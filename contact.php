@@ -13,7 +13,7 @@
     <!-- FAVICON -->
     <link rel="icon" href="myfavicon.ico" type="image/x-icon"> 
     <link rel="shortcut icon" href="myfavicon.ico" type="image/x-icon">
-    <title>About</title>
+    <title>Contact</title>
 </head>
 <body>
     <span class="tag_body bounce">&ltbody&gt</span>
@@ -40,7 +40,7 @@
                 <i class="icon-picture-o"></i>
                 <div class="text-picture-o">My<br>Work</div>
             </a>
-            <a href="contact.html">
+            <a href="contact.php">
                 <i class="icon-mail"></i>
                 <div class="text-mail">Contact</div>
             </a>
@@ -57,7 +57,7 @@
             </a>
         </div>
     </div>
-<!-- ----------------------- INTRODUCTION ----------------------- -->    
+<!-- ----------------------- INTRODUCTION - FORM ----------------------- -->    
     <div class="introduction">
         <h1>
             <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span><span>&nbsp;</span><span>m</span><span>e</span>
@@ -97,18 +97,12 @@
     </div>
     <a href="http://www.eldalion.com"><img src="img/blog.svg" alt="" class="blog"></a>
 <!-- scripts -->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="js/particles.js"></script>
-<script src="js/particle_settings.js"></script>
-<script src="js/map.js"></script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-0e7Esjaw5yb9IOy3Ei1n93E4taTXTaU&callback=initMap">
-    
-</script>
-<script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particle_settings.js"></script>
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-0e7Esjaw5yb9IOy3Ei1n93E4taTXTaU&callback=initMap"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
 

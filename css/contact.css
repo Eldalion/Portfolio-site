@@ -142,10 +142,6 @@ html {
     outline: none;
 }
 
-.introduction form input:focus {
-    border: 1px solid #08fdd8;
-}
-
 .introduction .name,.introduction .email {
     width: 48%;
     margin: 1%;
@@ -166,6 +162,11 @@ html {
     background: #37393b;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.introduction form input:focus, .introduction form textarea:focus {
+    border: 1px solid #08fdd8;
 }
 
 .introduction .button {
@@ -289,7 +290,6 @@ html {
     z-index: 2;
     width: 200px;
 }
-
 
 /* ------------------------- MEDIA QUERIES ----------------------------- */
 

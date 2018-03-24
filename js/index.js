@@ -1,19 +1,21 @@
+
+/* --------------------- INRODUCTION - ANIMATON ------------------------- */
+
 (function(){
     
-var chars = $("h1").blast({
+    var chars = $("h1").blast({
         delimiter: 'character'
     });
     
     // A character by character animation
         chars.each(function(i) {
-    // initialize position
+    // Initialize position
         $(this).css({
-        position: "relative",
-        bottom: "50px",
-        opacity:0
+            position: "relative",
+            bottom: "50px",
+            opacity:0
         })
-    // Delay: we don't want to animate
-    // characters simultaneously
+    // Delay: we don't want to animate characters simultaneously
         .delay(i * 80)
     // Animate to the right
         .animate({ 
@@ -42,9 +44,7 @@ var chars = $("h1").blast({
     opacity: 1
     }, 700);
             
-    $("#radio").css({
-        opacity:0
-    })
+    $("#radio")
     .delay(1900)
     .animate({ 
     opacity: 1
@@ -71,37 +71,42 @@ var chars = $("h1").blast({
     
 })();
 
+/* ------------------------- BOUNCY TEXT  ------------------------------- */
+
 $(".introduction span").addClass("bounce");
 
 $(".introduction span:nth-of-type(7)").addClass("letter_f");
 
-    $(".bounce:not(.letter_f), .contact_button").mouseenter(function (){
-        var el = $(this);
-        $(this).addClass('animated rubberBand');
-        $(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-            el.removeClass('animated rubberBand');
-        });
+$(".bounce:not(.letter_f), .contact_button").mouseenter(function (){
+    var el = $(this);
+    $(this).addClass('animated rubberBand');
+    $(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        el.removeClass('animated rubberBand');
     });
+});
+
+/* --------------------- RADIO - FUNCTIONALITY -------------------------- */
 
 $("#radio").on("click",function(){
-        var el = $("#song")[0];
-        if (el.paused == false) { // if radio is playing, pause it
-            el.pause();
+    var el = $("#song")[0];
+    if (el.paused == false) { // If radio is playing, pause it
+        el.pause();
             $("#radio").removeClass("animated infinite pulse");
-
-        } else {
-            el.play();
-            $("#radio").addClass("animated infinite pulse");
-      }
-    });
-    
-    if (window.matchMedia('(min-width: 721px)').matches) {
-        $(".navigation i").hover(function(){
-            $(this).next().slideDown().css("display","block");
-        },function(){
-            $(this).next().slideUp();
-        });
+    } else {
+        el.play();
+        $("#radio").addClass("animated infinite pulse");
     }
+});
+
+/* ------------------- NAVIGATION MEDIA QUERIES ------------------------- */
+    
+if (window.matchMedia('(min-width: 721px)').matches) {
+    $(".navigation i").hover(function(){
+        $(this).next().slideDown().css("display","block");
+    },function(){
+        $(this).next().slideUp();
+    });
+}
 
 
 

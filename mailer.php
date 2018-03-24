@@ -39,10 +39,9 @@ $email_content .= "Message:\n$message\n";
 
 $mail->Subject = $subject;
 $mail->Body    = $email_content;
-
-
-                  
+             
 //send the message, check for errors
+
 if(!$mail->send()) 
 {
     header("Location: http://www.frantisekmeciar.com/contact.php?success=-1");

@@ -1,3 +1,6 @@
+
+/* ------------------------- BOUNCY TEXT  ------------------------------- */
+
 (function(){
     
     $(".introduction span").addClass("bounce");
@@ -10,17 +13,21 @@
         });
     });
 
+/* --------------------- RADIO - FUNCTIONALITY -------------------------- */    
+    
     $("#radio").on("click",function(){
         var el = $("#song")[0];
-        if (el.paused == false) { // if radio is playing, pause it
+        if (el.paused == false) { // If radio is playing, pause it
             el.pause();
             $("#radio").removeClass("animated infinite pulse");
-
+            
         } else {
             el.play();
             $("#radio").addClass("animated infinite pulse");
-      }
+        }
     });
+
+/* ------------------- NAVIGATION MEDIA QUERIES ------------------------- */    
     
    if (window.matchMedia('(min-width: 721px)').matches) {
         $(".navigation i").hover(function(){
@@ -29,6 +36,8 @@
             $(this).next().slideUp();
         });
     }
+
+/* ----------------------- GALLERY AJAX CALLS --------------------------- */    
     
     var gallery = $(".portfolio_gallery");
 
@@ -73,10 +82,8 @@
             dataType: 'html'
         }).done(function (data){
             gallery.html($(data).find("a")).fadeIn(1000);
-            
         });
     });
-    
     
 })();
 

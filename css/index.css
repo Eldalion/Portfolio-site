@@ -125,6 +125,7 @@ html {
     color: #fff;
     transform: rotate(35deg);
     transition: all 0.5s;
+    opacity: 0;
 }
 
 .introduction i:hover {
@@ -148,7 +149,6 @@ html {
 
 .introduction .letter_f {
     color: #08fdd8;
-    /*text-shadow: -5px -5px 0px rgba(252, 16, 86, 1);*/
     text-shadow: -5px -5px 0px rgb(77, 162, 252);
     transform: rotate(-20deg);
     margin-left: 10px;

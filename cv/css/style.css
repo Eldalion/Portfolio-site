@@ -1,0 +1,10 @@
+body {
+    margin:0;
+    background-color:#272727; 
+}
+
+img {
+    display: block;
+    height: 100vh;
+    margin: 0 auto;
+}
